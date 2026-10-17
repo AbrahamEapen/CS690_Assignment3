@@ -1,0 +1,5 @@
+Prompt given to Claude Code (Claude Opus 5.5) on 2026-10-17, verbatim:
+
+Review Parts 1 to 3 and ensure requirements are fullfilled
+
+The agent had the full repository as context, including HANDOUT.md, RUBRIC.md, transcripts/interview.txt, evidence/evidence_log.md, evidence/evidence_audit.md, and requirements/requirements.md.

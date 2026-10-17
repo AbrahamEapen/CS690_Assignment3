@@ -1,0 +1,7 @@
+Prompt given to Claude Code (Claude Opus 5.5) on 2026-10-17, verbatim:
+
+Review Part 6. Run one AI ambiguity audit and critique the synthetic user and generate answer.
+
+The agent ran the audit itself by sending prompts/ambiguity_audit_prompt.txt plus the
+pasted transcript to a fresh subagent (see LEDGER Entry 7). It then drafted the
+adjudication and synthetic-user critique with the full repository as context.

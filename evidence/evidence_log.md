@@ -1,0 +1,16 @@
+# Part 1. Evidence log
+
+Case: INT-01. Ten entries: six E, one A, three Q. No entry cites SYN-01.
+
+| ID | Source | Claim | Status | Owner |
+| --- | --- | --- | --- | --- |
+| E-1 | INT-01:P04 | For a 2:00 camera kit, the student called at 2:08 to say a lab was running long; Jordan wrote "hold until 2:25" on the slip, the kit stayed on the pickup shelf, and the student arrived at 2:22 and completed pickup. Without the call it would have been treated as a no-show after the grace period. | Observed | Jordan Lee, checkout coordinator |
+| E-2 | INT-01:P06, INT-01:P21 | The grace period is a lab-configured value that the manager has changed before; once it has passed with no check-in and no recorded hold, the desk may release the kit. The system should use whatever value is configured rather than invent one. | Stated | Media Lab manager |
+| E-3 | INT-01:P17, INT-01:P21 | A reservation the student has already checked in for should remain active and not disappear when the clock passes the grace window. | Stated | Jordan Lee, checkout coordinator |
+| E-4 | INT-01:P06, INT-01:P17, INT-01:P19, INT-01:P21 | Staff sometimes enter a temporary hold with an end time after a student contacts them, and a recorded hold prevents release (the desk releases only when there is no check-in and no recorded hold). Jordan wants the hold's end time and its reason preserved to explain decisions later. | Stated | Jordan Lee, checkout coordinator |
+| E-5 | INT-01:P09, INT-01:P13, INT-01:P21 | A reservation can be marked released before the kit is physically ready: technicians may need to reshelve it, replace a battery, or check accessories, and the waitlist should only see equipment that is actually ready to hand out. Last Thursday a released lighting kit was still behind the counter while technicians checked a light stand and a waitlisted student waited at the desk. | Observed | Equipment technicians |
+| E-6 | INT-01:P13 | Last Thursday Priya's 3:00 lighting kit was released before she reached the desk at 3:16 (class ran to 3:11; desk line busy at 3:13). She waited until 3:38 for another kit and her interview started about ten minutes late. Email, call history, and the paper list each showed only part of the sequence. | Observed | Priya Shah, student borrower |
+| A-1 | INT-01:P04, INT-01:P21 | Assumption: a staff hold can only extend a reservation past the grace period, never shorten it. The only hold described (until 2:25) ended after the grace period; the interview never says what happens when a hold ends earlier, or whether the hold covers its end minute. | Assumption | Jordan Lee, checkout coordinator |
+| Q-1 | INT-01:P06, INT-01:P12 | Which grace value is currently configured, and which value are students told? Jordan says the current policy is 15 minutes; Priya says the desk told students 20 minutes, twice, including in March. | Open | Media Lab manager |
+| Q-2 | INT-01:P09, INT-01:P17, INT-01:P19, INT-01:P21 | How do equipment technicians record that a released kit is ready for the next checkout, and who sees that signal? Nobody has asked the technicians. | Open | Equipment technicians |
+| Q-3 | INT-01:P10 | Who should get a message before a kit goes to the waitlist (the late student, the waitlisted student, or both), when, and through which channel? | Open | Jordan Lee, checkout coordinator |

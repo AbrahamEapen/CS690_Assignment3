@@ -1,0 +1,7 @@
+Prompt given to Claude Code (Claude Opus 5.5) on 2026-10-17, verbatim:
+
+prompt me with anything that requires my review and input then update accordinly
+
+The agent then asked the student multiple-choice questions about R-1's boundary, audit finding 8,
+spec open questions 5-6, the Part 2 past-event row, the review done for each part, the requested
+test changes, the report name, and commit/push. The answers are recorded in LEDGER Entry 10.

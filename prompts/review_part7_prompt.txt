@@ -1,0 +1,5 @@
+Prompt given to Claude Code (Claude Opus 5.5) on 2026-10-17, verbatim:
+
+Review Part 7. Complete traceability and the provenance ledger. Generate answers accordingly
+
+The agent had the full repository as context, including HANDOUT.md, RUBRIC.md, LEDGER.md, traceability/template.csv, and all drafted artifacts.

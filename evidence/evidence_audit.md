@@ -1,0 +1,13 @@
+# Part 2. Evidence audit
+
+Case: INT-01. Evidence IDs refer to `evidence/evidence_log.md`.
+
+| Item | Location | Classification | Why it matters |
+| --- | --- | --- | --- |
+| 1. Direct factual contradiction | INT-01:P06, INT-01:P12 | Factual contradiction: Jordan says the current grace period is 15 minutes; Priya says the desk told students 20 minutes, twice. | Any requirement or test that uses either number would silently pick a side in a dispute only a stakeholder can settle. It is logged as Q-1, and the requirements use the configured value G instead. |
+| 2. Ambiguous statement 1 | INT-01:P07 | Ambiguity, vague amount of time: "If someone is only a little late, we try not to give the kit away." | "A little late" has no number, so it is unclear whether it means within the grace period or a further informal allowance beyond it. An agent could invent a second threshold the lab never set. |
+| 3. Ambiguous statement 2 | INT-01:P10 | Ambiguity, unclear who and what: "They should get a message before it goes to the waitlist." | "They" could be the late student, the waitlisted student, or both, and "it" could be the release or the waitlist offer, so the recipient and trigger of the message are undefined. The channel and timing are also unstated (Q-3). |
+| 4. Missing stakeholder | INT-01:P02, INT-01:P09, INT-01:P13, INT-01:P17, INT-01:P19, INT-01:P21 | Missing stakeholder: the equipment technicians, who prepare and re-check kits but were never interviewed ("We have not asked them yet," P19). | The waitlist requirement depends on a preparation-complete signal that only the technicians can define (Q-2). Designing their workflow without them would mean inventing it. |
+| 5. Compliment | INT-01:P14 | Compliment, not evidence: "a reservation dashboard that fixed all of this would be amazing." | Enthusiasm for an imagined dashboard says nothing about what the user currently does or needs. Treating it as demand could add a dashboard requirement no past event supports. |
+| 6. Prediction about future use | INT-01:P15 | Prediction about hypothetical future behavior: "I would probably use it every time I was delayed." | A guess about using a feature that does not exist is not evidence of current behavior. In P13 she actually called the desk, so only calling is observed behavior. |
+| 7. Strongest account of a specific past event | INT-01:P13 | Specific past event (Observed): last Thursday's 3:00 lighting kit, released before she arrived at 3:16 while the kit was still being checked. | It gives concrete times, actions, and consequences: the release, the not-yet-ready kit, the waitlisted student at the desk, and an interview that started late. It directly supports E-5 and E-6 and the waitlist-readiness requirement R-4. |

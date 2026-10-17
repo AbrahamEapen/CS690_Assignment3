@@ -1,0 +1,5 @@
+Prompt given to Claude Code (Claude Opus 5.5) on 2026-10-17, verbatim:
+
+Review Part 5. Turn three criteria into tests and generate answers
+
+The agent had the full repository as context, including HANDOUT.md, RUBRIC.md, README.md, requirements/requirements.md, and tests/test_student_acceptance.py.

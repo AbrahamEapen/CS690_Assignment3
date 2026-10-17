@@ -1,0 +1,6 @@
+Prompts given to Claude Code (Claude Opus 5.5) on 2026-10-17, verbatim:
+
+1. Review Part 1. Build an evidence log
+2. Review Part 1. Build an evidence log and Generate requirements
+
+The agent had the full repository as context, including HANDOUT.md, RUBRIC.md, evidence/schema.md, and transcripts/interview.txt.
